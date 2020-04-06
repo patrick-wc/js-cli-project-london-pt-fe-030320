@@ -1,22 +1,55 @@
 {
-  "books": [
+  "posts": [
     {
-      "reviews": [
-        { "content": "i liked it", "rating": 4 },
-        { "rating": "3", "content": "great" },
-        { "rating": "1", "content": "hated it" },
-        { "rating": "10", "content": "srofgu" }
-      ],
       "id": 1,
-      "title": "Good Book about Javascript"
+      "title": "A brilliant website",
+      "content": "https://something.com/",
+      "upvotes": 1,
+      "downvotes": 5,
+      "comments": ["What is this?", "Is there anything else here?"]
     },
     {
-      "title": "Book about Ruby",
-      "reviews": [{ "rating": "3", "content": "hello" }],
-      "id": 2
+      "id": 2,
+      "title": "Hampster Dance",
+      "content": "https://en.wikipedia.org/wiki/Hampster_Dance",
+      "upvotes": 20,
+      "downvotes": 0,
+      "comments": ["I remember this!", "Is it online anywhere?"]
     },
-    { "title": "Book about Ruby", "reviews": [], "id": 4 },
-    { "title": "Book about Ruby", "reviews": [], "id": 5 },
-    { "title": "Book about Ruby", "reviews": [], "id": 6 }
+    {
+      "id": 3,
+      "title": "Newgrounds",
+      "content": "https://www.newgrounds.com",
+      "upvotes": 20,
+      "downvotes": 0,
+      "comments": ["NFSW!"]
+    },
+    {
+      "id": 4,
+      "title": "Twitter",
+      "content": "https://twitter.com",
+      "upvotes": 90,
+      "downvotes": 0,
+      "comments": []
+    },
+    {
+      "id": 5,
+      "title": "My Space",
+      "content": "https://myspace.com",
+      "upvotes": 20,
+      "downvotes": 0,
+      "comments": [
+        "I heard a great podcast about the My Space worm Samy the other day",
+        "I heard that too, on Dark Net"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "MDN",
+      "content": "https://developer.mozilla.org/",
+      "upvotes": 20,
+      "downvotes": 0,
+      "comments": ["My new favourite website"]
+    }
   ]
 }
